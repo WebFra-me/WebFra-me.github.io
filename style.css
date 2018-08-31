@@ -1,0 +1,23 @@
+html, body {
+    position: relative;
+    font-family: "Courier New", Courier, Monospace;
+}
+h1, h2, h3 {
+  font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif;
+}
+.blue {
+  color: #ffffff;
+  background-color: #1161D9;
+}
+.orange {
+  color: #ffffff;
+  background-color: #D98911;
+}
+.purple {
+  color: #ffffff;
+  background-color: #8911D9;
+}
+.green {
+  color: #ffffff;
+  background-color: #61D911;
+}
