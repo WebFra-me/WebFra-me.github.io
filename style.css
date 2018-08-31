@@ -24,3 +24,7 @@ h1, h2, h3 {
 .mainbody{
   min-height: 100vh;
     }
+.oc{
+  background-image: url("Octocat.png");
+  background-repeat: no-repeat;
+}
