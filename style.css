@@ -27,6 +27,8 @@ h1, h2, h3 {
 
 h4 {
   width:97%;
+  text-align: center;
+  margin: auto;
 }
 
 .bodylink {
