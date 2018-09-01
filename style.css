@@ -24,3 +24,16 @@ h1, h2, h3 {
 .mainbody{
   min-height: 100vh;
 }
+
+h4 {
+  width:97%;
+}
+
+.bodylink {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.bodylink:hover {
+  color: #dddddd;
+}
