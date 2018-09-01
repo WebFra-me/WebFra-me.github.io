@@ -6,7 +6,7 @@ h1, h2, h3 {
   font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif;
 }
 .wf-blue {
-  color: #D98911;
+  color: #ffffff;
   background-color: #1161D9;
 }
 .wf-orange {
@@ -23,8 +23,4 @@ h1, h2, h3 {
 }
 .mainbody{
   min-height: 100vh;
-    }
-.oc{
-  background-image: url("Octocat.png");
-  background-repeat: no-repeat;
 }
