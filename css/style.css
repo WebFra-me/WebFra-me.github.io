@@ -49,3 +49,14 @@ h4 {
   color: #343a40;
   background-color: #FFF;
 }
+.btn.btn-primary{
+    box-shadow: none;
+    -webkit-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    background: #00A1CB;
+    color: #FFF;
+    text-shadow: none;
+    border: none;
+}
