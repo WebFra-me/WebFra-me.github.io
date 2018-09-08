@@ -1,9 +1,10 @@
 body {
     position: relative;
-    font-family: "Courier New", Courier, Monospace;
+    
+    /*font-family: "Courier New", Courier, Monospace;*/
 }
 h1, h2, h3 {
-  font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif;
+  /*font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif;*/
 }
 .wf-blue {
   color: #ffffff;
@@ -38,4 +39,13 @@ h4 {
 
 .bodylink:hover {
   color: #dddddd;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,.75);
+  display: inline-block;
+  border-radius: 5px;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #343a40;
+  background-color: #FFF;
 }
