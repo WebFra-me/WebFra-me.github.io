@@ -19,7 +19,7 @@
   <meta name="description" content="Webframe makes rapid app development possible by providing the back-end for you—user accounts, security, and pretty much everything else.">
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">-->
   <link rel="stylesheet" href="css/style.css">
   
   <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
@@ -102,7 +102,7 @@
       </div>
       <div class="col-lg-5 text-center pt-md-5 pt-lg-5 pt-xl-5 pb-sm-5 pb-xs-5">
         
-          <a href="#" class="btn btn-primary btn-lg" onclick="download_webframe();return false;"><i class="fa fa-fw fa-download"></i> &nbsp;Download WebFrame</a>
+          <a href="#" class="btn btn-primary btn-lg" style="font-size: 1.6rem;" onclick="download_webframe();return false;"><i class="fa fa-fw fa-download"></i> &nbsp;Download WebFrame</a>
           <br />
           <a class="mt-3 d-block" href="#">Download Options</a>
         
@@ -116,32 +116,34 @@
     <!--<br>-->
     <!--<a href="#features" style="color: #000000; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>-->
   </div>
-  <div id="features" class="container-fluid wf-purple mainbody" style="padding-top:70px;padding-bottom:70px; text-align: center;">
-    <h1 class="mb-5">Features</h1>
-    <p class="lead">WebFrame is feature packed to facilitate the simple and easy creation, integration, and usage of web applications. We are also working constantly to expand WebFrame's feature set. Here are some of the notable features:</p>
-      
-      <div class="row">
-        <div class="col-4 px-xl-5">
-          <img src="img/coding.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" alt="" />
-          <h4>Rapid App Development</h4>
+  <div id="features" class="wf-purple mainbody py-5 text-center">
+    <div class="container">
+      <h1 class="mb-5">Features</h1>
+      <p class="lead">WebFrame is feature packed to facilitate the simple and easy creation, integration, and usage of web applications. We are also working constantly to expand WebFrame's feature set. Here are some of the notable features:</p>
+        
+        <div class="row mb-5">
+          <div class="col-4 px-xl-5">
+            <img src="img/coding.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="max-width: 256px;" alt="" />
+            <h4>Rapid App Development</h4>
+          </div>
+          <div class="col-4 px-xl-5">
+            <img src="img/login.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="max-width: 256px;" alt="" />
+            <h4>Built-in Authentication &amp; Security</h4>
+          </div>
+          <div class="col-4 px-xl-5">
+            <img src="img/web-design.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="max-width: 256px;" alt="" />
+            <h4>Customizable layouts and themes</h4>
+          </div>
         </div>
-        <div class="col-4 px-xl-5">
-          <img src="img/login.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" alt="" />
-          <h4>Built-in Authentication &amp; Security</h4>
-        </div>
-        <div class="col-4 px-xl-5">
-          <img src="img/web-design.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" alt="" />
-          <h4>Customizable layouts and themes</h4>
-        </div>
-      </div>
-      <!--<p>Versitile framework for the easy creation of web applications</p>-->
-      <!--<p>Authentication and security built-in</p>-->
-      <!--<p>Customizable layouts and themes to fit any need</p>-->
-      <!--<p>Tools to assist in the development of web applications</p>-->
-      <!--<p>Marketplace with many web applications developed by other WebFrame users</p>-->
-      
-    <br>
-  <a href="#webdesk-top" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
+        <!--<p>Versitile framework for the easy creation of web applications</p>-->
+        <!--<p>Authentication and security built-in</p>-->
+        <!--<p>Customizable layouts and themes to fit any need</p>-->
+        <!--<p>Tools to assist in the development of web applications</p>-->
+        <!--<p>Marketplace with many web applications developed by other WebFrame users</p>-->
+        
+      <br>
+      <a href="#webdesk-top" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
+    </div>
   </div>
   <!--<div id="webdesk-top" class="container-fluid wf-orange mainbody" style="padding-top:70px;padding-bottom:70px; text-align: center;">-->
   <!--  <h1>WebDesk-top (Pre-Release for test only)</h1>-->
@@ -164,23 +166,51 @@
   <!--  <br>-->
   <!--<a href="#involved" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>-->
   <!--</div>-->
-  <div id="involved" class="container-fluid wf-blue mainbody" style="padding-top:70px;padding-bottom:70px; text-align: center;">
-    <h1>Get Involved</h1>
-    <h4>WebFrame is completely open source, which means we rely on user support for the advancement in development of WebFrame.  There are a few ways you can get involved to help improve WebFrame for everyone:</h4>
-    <br>
-        <p>Develop for WebFrame</p>
-        <p>Contribute to our documentation</p>
-        <p>Build web applications and publish them on the Marketplace</p>
-        <p>Provide feedback regarding issues, improvements, or requests for new features</p>
-        <p>Spread the word!</p>
-    <br>
-    <hr style="background-color:#ffffff;height:1px;">
-    <br><br>
-    <a href="https://github.com/WebFra-me/WebFra-me" target="_blank"><img src="img/icons/GitHub-Mark-Light-120px-plus.png" alt="GitHub" style="width:10%;"/></a>
-    <br><br>
-    <h4>WebFrame is hosted on GitHub. To contribute to WebFrame development or documentation, please head to <a class="bodylink" href="https://github.com/WebFra-me/WebFra-me" target="_blank">GitHub</a>.</h4>
-    <br>
-  <a href="#docs" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
+  <div id="involved" class="container-fluid wf-blue mainbody py-5" style="">
+    <div class="container py-5">
+      
+      <div class="row mb-5">
+        <div class="col-md-4">
+          
+          <a href="https://github.com/WebFra-me/WebFra-me" target="_blank" class="btn btn-outline-light btn-lg btn-block">
+            <i class="fab fa-github fa-lg fa-fw"></i> &nbsp; Fork on Github
+          </a>
+          <a href="#" class="btn btn-outline-light btn-lg btn-block">
+            <i class="far fa-id-envelope fa-lg fa-fw"></i> &nbsp; Join the mailing list
+          </a>
+          <a href="#" class="btn btn-outline-light btn-lg btn-block">
+            <i class="far fa-donate fa-lg fa-fw"></i> &nbsp; Donate
+          </a>
+          <a href="#" class="btn btn-outline-light btn-lg btn-block">
+            <i class="far fa-id-badge fa-lg fa-fw"></i> &nbsp; Join our team
+          </a>
+          
+        </div>
+        <div class="col-md-7 offset-md-1">
+          <h1 class="mb-3">Get Involved</h1>
+          <p class="lead"><i class="fal fa-hands-helping fa-5x fa-pull-right"></i> WebFrame is completely open source, which means we rely on user support for the advancement in development of WebFrame.  There are a few ways you can get involved to help improve WebFrame for everyone:</p>
+        </div>
+      </div>
+      
+      
+      
+      <!--<br>-->
+          <!--<p>Develop for WebFrame</p>-->
+          <!--<p>Contribute to our documentation</p>-->
+          <!--<p>Build web applications and publish them on the Marketplace</p>-->
+          <!--<p>Provide feedback regarding issues, improvements, or requests for new features</p>-->
+          <!--<p>Spread the word!</p>-->
+      <!--<br>-->
+      <!--<hr style="background-color:#ffffff;height:1px;">-->
+      <!--<br><br>-->
+      <!--<a href="https://github.com/WebFra-me/WebFra-me" target="_blank"><img src="img/icons/GitHub-Mark-Light-120px-plus.png" alt="GitHub" style="width:10%;"/></a>-->
+      <!--<br><br>-->
+      <!--<h4>WebFrame is hosted on GitHub. To contribute to WebFrame development or documentation, please head to <a class="bodylink" href="https://github.com/WebFra-me/WebFra-me" target="_blank">GitHub</a>.</h4>-->
+      <!--<br>-->
+      <div class="text-center">
+        <a href="#docs" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
+      </div>
+    </div>
   </div>
   <div id="docs" class="container-fluid wf-green mainbody" style="padding-top:70px;padding-bottom:70px; text-align: center;">
     <h1>Docs</h1>
@@ -202,7 +232,7 @@
   <div id="footer" class="" style="padding-top: 10px; padding-bottom: 10px; text-align: center;">
     <span>Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> WebFrame | <a href="privacy.html" target="_blank">Privacy Policy</a> | <a href="termsofuse.html" target="_blank">Terms of Use</a></span>
     
-  
+  <script defer src="https://pro.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-eAVkiER0fL/ySiqS7dXu8TLpoR8d9KRzIYtG0Tz7pi24qgQIIupp0fn2XA1H90fP" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>  
