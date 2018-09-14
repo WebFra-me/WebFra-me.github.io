@@ -86,147 +86,150 @@
   </div>
   </nav>
   
-  <div id="home" class="container-fluid mainbody text-center mt-5 pt-5 px-0">
-    
-    <div class="row">
-      <div class="col-md-6 offset-md-3">
-        <img src="img/WebFrame.png" alt="WebFra.me" class="img-fluid px-sm-5 px-xs-5">
+  <div class="wrapper">
+    <div id="home" class="mainbody text-center mt-5 pt-5 px-0 section parallax">
+      
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <img src="img/WebFrame.png" alt="WebFra.me" class="img-fluid px-sm-5 px-xs-5">
+        </div>
+      </div>
+      
+      <h2 class="mt-4 mb-5">Empowering software that empowers you</h2>
+      
+      <div class="row mt-5 pt-5 no-gutters">
+        <div class="col-lg-7">
+          <img src="img/macbook-front-partial.png" class="img-fluid d-none d-lg-block d-xl-block" />
+        </div>
+        <div class="col-lg-5 text-center pt-md-5 pt-lg-5 pt-xl-5 pb-sm-5 pb-xs-5">
+          
+            <a href="#" class="btn btn-primary btn-lg" style="font-size: 1.6rem;" onclick="download_webframe();return false;"><i class="fa fa-fw fa-download"></i> &nbsp;Download WebFrame</a>
+            <br />
+            <a class="mt-3 d-block" href="#">Download Options</a>
+          
+          <!--<a href="https://raw.githubusercontent.com/WebFra-me/WebFra-me/master/wd_deb.sh" target="_blank">wd_deb.sh</a>-->
+        </div>
+      </div>
+      <div class="text-center mx-5">
+        <img src="img/macbook-front.png" class="img-fluid d-xl-none d-lg-none mb-3" />
+      </div>
+      
+      <!--<br>-->
+      <!--<a href="#features" style="color: #000000; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>-->
+    </div>
+    <div id="features" class="wf-purple mainbody py-5 text-center section">
+      <div class="container">
+        <h1 class="mb-5">Features</h1>
+        <p class="lead">WebFrame is feature packed to facilitate the simple and easy creation, integration, and usage of web applications. We are also working constantly to expand WebFrame's feature set. Here are some of the notable features:</p>
+          
+          <div class="row mb-5">
+            <div class="col-4 px-xl-5">
+              <img src="img/coding.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="width: 100%;max-width: 256px;" alt="" />
+              <h4>Rapid App Development</h4>
+            </div>
+            <div class="col-4 px-xl-5">
+              <img src="img/login.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="width: 100%;max-width: 256px;" alt="" />
+              <h4>Built-in Authentication &amp; Security</h4>
+            </div>
+            <div class="col-4 px-xl-5">
+              <img src="img/web-design.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="width: 100%;max-width: 256px;" alt="" />
+              <h4>Customizable layouts and themes</h4>
+            </div>
+          </div>
+          <!--<p>Versitile framework for the easy creation of web applications</p>-->
+          <!--<p>Authentication and security built-in</p>-->
+          <!--<p>Customizable layouts and themes to fit any need</p>-->
+          <!--<p>Tools to assist in the development of web applications</p>-->
+          <!--<p>Marketplace with many web applications developed by other WebFrame users</p>-->
+          
+        <br>
+        <a href="#webdesk-top" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
       </div>
     </div>
-    
-    <h2 class="mt-4 mb-5">Empowering software that empowers you</h2>
-    
-    <div class="row mt-5 pt-5 no-gutters">
-      <div class="col-lg-7">
-        <img src="img/macbook-front-partial.png" class="img-fluid d-none d-lg-block d-xl-block" />
-      </div>
-      <div class="col-lg-5 text-center pt-md-5 pt-lg-5 pt-xl-5 pb-sm-5 pb-xs-5">
-        
-          <a href="#" class="btn btn-primary btn-lg" style="font-size: 1.6rem;" onclick="download_webframe();return false;"><i class="fa fa-fw fa-download"></i> &nbsp;Download WebFrame</a>
-          <br />
-          <a class="mt-3 d-block" href="#">Download Options</a>
-        
-        <!--<a href="https://raw.githubusercontent.com/WebFra-me/WebFra-me/master/wd_deb.sh" target="_blank">wd_deb.sh</a>-->
-      </div>
-    </div>
-    <div class="text-center mx-5">
-      <img src="img/macbook-front.png" class="img-fluid d-xl-none d-lg-none mb-3" />
-    </div>
-    
-    <!--<br>-->
-    <!--<a href="#features" style="color: #000000; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>-->
-  </div>
-  <div id="features" class="wf-purple mainbody py-5 text-center">
-    <div class="container">
-      <h1 class="mb-5">Features</h1>
-      <p class="lead">WebFrame is feature packed to facilitate the simple and easy creation, integration, and usage of web applications. We are also working constantly to expand WebFrame's feature set. Here are some of the notable features:</p>
+    <!--<div id="webdesk-top" class="container-fluid wf-orange mainbody" style="padding-top:70px;padding-bottom:70px; text-align: center;">-->
+    <!--  <h1>WebDesk-top (Pre-Release for test only)</h1>-->
+    <!--  <h3>WebFrame for your desktop.</h3>-->
+    <!--  <p>Easy Install</p>-->
+    <!--  <p>Easy App Creation</p>-->
+    <!--  <p>Easy App Updating</p>-->
+    <!--  <div class="card-deck">-->
+    <!--    <a class="card bg-primary" href="https://github.com/WebFra-me/WebDesk-top/raw/master/release-builds/webdesktop-linux-x64.tar.gz" target="_blank" style="color:#ffffff;text-decoration:none;">-->
+    <!--      <div class="card-body text-center">-->
+    <!--        <i class="fab fa-linux fa-4x" aria-hidden="true"></i><p class="card-text">Linux Download</p>-->
+    <!--      </div>-->
+    <!--    </a>-->
+    <!--    <a class="card bg-primary" href="https://github.com/WebFra-me/WebDesk-top/raw/master/release-builds/WebDesk-top_mac.zip" target="_blank" style="color:#ffffff;text-decoration:none;">-->
+    <!--      <div class="card-body text-center">-->
+    <!--        <i class="fab fa-apple fa-4x" aria-hidden="true"></i><p class="card-text">macOS Download</p>-->
+    <!--      </div>-->
+    <!--    </a>-->
+    <!--  </div>-->
+    <!--  <br>-->
+    <!--<a href="#involved" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>-->
+    <!--</div>-->
+    <div id="involved" class="container-fluid wf-blue mainbody py-5 section">
+      <div class="container py-5">
         
         <div class="row mb-5">
-          <div class="col-4 px-xl-5">
-            <img src="img/coding.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="max-width: 256px;" alt="" />
-            <h4>Rapid App Development</h4>
+          
+          <div class="col-md-7">
+            <h1 class="mb-3">Get Involved</h1>
+            <p class="lead"> WebFrame is completely open source, which means we rely on user support for the advancement in development of WebFrame.  There are a few ways you can get involved to help improve WebFrame for everyone.</p>
           </div>
-          <div class="col-4 px-xl-5">
-            <img src="img/login.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="max-width: 256px;" alt="" />
-            <h4>Built-in Authentication &amp; Security</h4>
-          </div>
-          <div class="col-4 px-xl-5">
-            <img src="img/web-design.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="max-width: 256px;" alt="" />
-            <h4>Customizable layouts and themes</h4>
+          <div class="col-md-4 offset-md-1">
+            
+            <a href="https://github.com/WebFra-me/WebFra-me" target="_blank" class="btn btn-outline-light btn-lg btn-block text-left">
+              <i class="fab fa-github fa-lg fa-fw"></i> &nbsp; Fork on Github
+            </a>
+            <a href="#" class="btn btn-outline-light btn-lg btn-block text-left">
+              <i class="far fa-envelope fa-lg fa-fw"></i> &nbsp; Join the mailing list
+            </a>
+            <a href="#" id="" class="btn btn-outline-light btn-lg btn-block text-left">
+              <i class="far fa-donate fa-lg fa-fw"></i> &nbsp; Donate
+            </a>
+            <a href="#" class="btn btn-outline-light btn-lg btn-block text-left">
+              <i class="far fa-id-badge fa-lg fa-fw"></i> &nbsp; Join our team
+            </a>
+            
           </div>
         </div>
-        <!--<p>Versitile framework for the easy creation of web applications</p>-->
-        <!--<p>Authentication and security built-in</p>-->
-        <!--<p>Customizable layouts and themes to fit any need</p>-->
-        <!--<p>Tools to assist in the development of web applications</p>-->
-        <!--<p>Marketplace with many web applications developed by other WebFrame users</p>-->
         
-      <br>
-      <a href="#webdesk-top" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
-    </div>
-  </div>
-  <!--<div id="webdesk-top" class="container-fluid wf-orange mainbody" style="padding-top:70px;padding-bottom:70px; text-align: center;">-->
-  <!--  <h1>WebDesk-top (Pre-Release for test only)</h1>-->
-  <!--  <h3>WebFrame for your desktop.</h3>-->
-  <!--  <p>Easy Install</p>-->
-  <!--  <p>Easy App Creation</p>-->
-  <!--  <p>Easy App Updating</p>-->
-  <!--  <div class="card-deck">-->
-  <!--    <a class="card bg-primary" href="https://github.com/WebFra-me/WebDesk-top/raw/master/release-builds/webdesktop-linux-x64.tar.gz" target="_blank" style="color:#ffffff;text-decoration:none;">-->
-  <!--      <div class="card-body text-center">-->
-  <!--        <i class="fab fa-linux fa-4x" aria-hidden="true"></i><p class="card-text">Linux Download</p>-->
-  <!--      </div>-->
-  <!--    </a>-->
-  <!--    <a class="card bg-primary" href="https://github.com/WebFra-me/WebDesk-top/raw/master/release-builds/WebDesk-top_mac.zip" target="_blank" style="color:#ffffff;text-decoration:none;">-->
-  <!--      <div class="card-body text-center">-->
-  <!--        <i class="fab fa-apple fa-4x" aria-hidden="true"></i><p class="card-text">macOS Download</p>-->
-  <!--      </div>-->
-  <!--    </a>-->
-  <!--  </div>-->
-  <!--  <br>-->
-  <!--<a href="#involved" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>-->
-  <!--</div>-->
-  <div id="involved" class="container-fluid wf-blue mainbody py-5" style="">
-    <div class="container py-5">
-      
-      <div class="row mb-5">
-        <div class="col-md-4">
-          
-          <a href="https://github.com/WebFra-me/WebFra-me" target="_blank" class="btn btn-outline-light btn-lg btn-block">
-            <i class="fab fa-github fa-lg fa-fw"></i> &nbsp; Fork on Github
-          </a>
-          <a href="#" class="btn btn-outline-light btn-lg btn-block">
-            <i class="far fa-id-envelope fa-lg fa-fw"></i> &nbsp; Join the mailing list
-          </a>
-          <a href="#" class="btn btn-outline-light btn-lg btn-block">
-            <i class="far fa-donate fa-lg fa-fw"></i> &nbsp; Donate
-          </a>
-          <a href="#" class="btn btn-outline-light btn-lg btn-block">
-            <i class="far fa-id-badge fa-lg fa-fw"></i> &nbsp; Join our team
-          </a>
-          
-        </div>
-        <div class="col-md-7 offset-md-1">
-          <h1 class="mb-3">Get Involved</h1>
-          <p class="lead"><i class="fal fa-hands-helping fa-5x fa-pull-right"></i> WebFrame is completely open source, which means we rely on user support for the advancement in development of WebFrame.  There are a few ways you can get involved to help improve WebFrame for everyone:</p>
+        
+        
+        <!--<br>-->
+            <!--<p>Develop for WebFrame</p>-->
+            <!--<p>Contribute to our documentation</p>-->
+            <!--<p>Build web applications and publish them on the Marketplace</p>-->
+            <!--<p>Provide feedback regarding issues, improvements, or requests for new features</p>-->
+            <!--<p>Spread the word!</p>-->
+        <!--<br>-->
+        <!--<hr style="background-color:#ffffff;height:1px;">-->
+        <!--<br><br>-->
+        <!--<a href="https://github.com/WebFra-me/WebFra-me" target="_blank"><img src="img/icons/GitHub-Mark-Light-120px-plus.png" alt="GitHub" style="width:10%;"/></a>-->
+        <!--<br><br>-->
+        <!--<h4>WebFrame is hosted on GitHub. To contribute to WebFrame development or documentation, please head to <a class="bodylink" href="https://github.com/WebFra-me/WebFra-me" target="_blank">GitHub</a>.</h4>-->
+        <!--<br>-->
+        <div class="text-center">
+          <a href="#docs" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
         </div>
       </div>
-      
-      
-      
-      <!--<br>-->
-          <!--<p>Develop for WebFrame</p>-->
-          <!--<p>Contribute to our documentation</p>-->
-          <!--<p>Build web applications and publish them on the Marketplace</p>-->
-          <!--<p>Provide feedback regarding issues, improvements, or requests for new features</p>-->
-          <!--<p>Spread the word!</p>-->
-      <!--<br>-->
-      <!--<hr style="background-color:#ffffff;height:1px;">-->
-      <!--<br><br>-->
-      <!--<a href="https://github.com/WebFra-me/WebFra-me" target="_blank"><img src="img/icons/GitHub-Mark-Light-120px-plus.png" alt="GitHub" style="width:10%;"/></a>-->
-      <!--<br><br>-->
-      <!--<h4>WebFrame is hosted on GitHub. To contribute to WebFrame development or documentation, please head to <a class="bodylink" href="https://github.com/WebFra-me/WebFra-me" target="_blank">GitHub</a>.</h4>-->
-      <!--<br>-->
-      <div class="text-center">
-        <a href="#docs" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
-      </div>
     </div>
-  </div>
-  <div id="docs" class="container-fluid wf-green mainbody" style="padding-top:70px;padding-bottom:70px; text-align: center;">
-    <h1>Docs</h1>
-    <h4>The documentation for WebFrame and WebDesk-top is hosted on GitHub wiki pages. Use the buttons below to visit the wiki pages. Feel free to contribute to the documentation as well!</h4>
-    <br><br>
-    <div class="card-deck">
-      <a class="card wf-purple bodylink" href="https://github.com/WebFra-me/WebFra-me/wiki" target="_blank" style="text-decoration:none;">
-        <div class="card-body text-center">
-          <img src="img/icons/android-chrome-192x192.png" style="width: 10%;"><p class="card-text">WebFrame</p>
-        </div>
-      </a>
-      <a class="card wf-purple bodylink" href="https://github.com/WebFra-me/WebDesk-top/wiki" target="_blank" style="text-decoration:none;">
-        <div class="card-body text-center">
-          <img src="img/WebDesk-top.png" style="width: 10%;"></i><p class="card-text">WebDesk-top</p>
-        </div>
-      </a>
+    <div id="docs" class="container-fluid wf-green mainbody py-5 text-center section">
+      <h1>Docs</h1>
+      <h4>The documentation for WebFrame and WebDesk-top is hosted on GitHub wiki pages. Use the buttons below to visit the wiki pages. Feel free to contribute to the documentation as well!</h4>
+      <br><br>
+      <div class="card-deck">
+        <a class="card wf-purple bodylink" href="https://github.com/WebFra-me/WebFra-me/wiki" target="_blank" style="text-decoration:none;">
+          <div class="card-body text-center">
+            <img src="img/icons/android-chrome-192x192.png" style="width: 10%;"><p class="card-text">WebFrame</p>
+          </div>
+        </a>
+        <a class="card wf-purple bodylink" href="https://github.com/WebFra-me/WebDesk-top/wiki" target="_blank" style="text-decoration:none;">
+          <div class="card-body text-center">
+            <img src="img/WebDesk-top.png" style="width: 10%;"></i><p class="card-text">WebDesk-top</p>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
   <div id="footer" class="" style="padding-top: 10px; padding-bottom: 10px; text-align: center;">
@@ -270,6 +273,33 @@
         });
       }  // End if
     });
+  });
+  </script>
+  <script src="https://checkout.stripe.com/checkout.js"></script>
+  
+  <script>
+  var handler = StripeCheckout.configure({
+    key: 'pk_test_dCBpy32VK0PWMr623gffR3ly',
+    image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
+    locale: 'auto',
+    token: function(token) {
+      // You can access the token ID with `token.id`.
+      // Get the token ID to your server-side code for use.
+    }
+  });
+  
+  document.getElementById('donateButton').addEventListener('click', function(e) {
+    // Open Checkout with further options:
+    handler.open({
+      name: 'Webdesk',
+      description: 'Donate to Webframe'
+    });
+    e.preventDefault();
+  });
+  
+  // Close Checkout on page navigation:
+  window.addEventListener('popstate', function() {
+    handler.close();
   });
   </script>
 </body>
