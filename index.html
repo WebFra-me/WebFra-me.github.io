@@ -31,7 +31,7 @@
   <meta name="theme-color" content="#ffffff">
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" style="height: 100%;">
 
   <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
     
@@ -86,8 +86,8 @@
   </div>
   </nav>
   
-  <div class="wrapper">
-    <div id="home" class="mainbody text-center mt-5 pt-5 px-0 section parallax">
+  <div class="wrapper" style="height: 100%;">
+    <div id="home" class="mainbody text-center mt-5 pt-5 px-0 section parallax" style="height: 100%;">
       
       <div class="row">
         <div class="col-md-6 offset-md-3">
@@ -95,19 +95,20 @@
         </div>
       </div>
       
-      <h2 class="mt-4 mb-5">Empowering software that empowers you</h2>
+      <h2 class="mt-2 mb-5">Empowering software that empowers you</h2>
       
-      <div class="row mt-5 pt-5 no-gutters">
-        <div class="col-lg-7">
-          <img src="img/macbook-front-partial.png" class="img-fluid d-none d-lg-block d-xl-block" />
-        </div>
+      <div class="row mt-5 pt-5 no-gutters" style="height: 100%">
+        
         <div class="col-lg-5 text-center pt-md-5 pt-lg-5 pt-xl-5 pb-sm-5 pb-xs-5">
           
-            <a href="#" class="btn btn-primary btn-lg" style="font-size: 1.6rem;" onclick="download_webframe();return false;"><i class="fa fa-fw fa-download"></i> &nbsp;Download WebFrame</a>
-            <br />
-            <a class="mt-3 d-block" href="#">Download Options</a>
+          <a href="#" class="btn btn-primary btn-lg" style="font-size: 1.6rem;" onclick="download_webframe();return false;"><i class="fa fa-fw fa-download"></i> &nbsp;Download WebFrame</a>
+          <br />
+          <!--<a class="mt-3 d-block" href="#">Download Options</a>-->
           
-          <!--<a href="https://raw.githubusercontent.com/WebFra-me/WebFra-me/master/wd_deb.sh" target="_blank">wd_deb.sh</a>-->
+          <a class="mt-3 d-block" href="https://raw.githubusercontent.com/WebFra-me/WebFra-me/master/wd_deb.sh" target="_blank">Download wd_deb.sh</a>
+        </div>
+        <div class="col-lg-7 d-none d-lg-block d-xl-block" style="background: url('img/macbook-front.png') no-repeat 0px 0px;background-size: 115%;height: 100%;min-height: 460px;">
+          <!--<img src="" class="img-fluid d-none d-lg-block d-xl-block" />-->
         </div>
       </div>
       <div class="text-center mx-5">
@@ -146,27 +147,27 @@
         <a href="#webdesk-top" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
       </div>
     </div>
-    <!--<div id="webdesk-top" class="container-fluid wf-orange mainbody" style="padding-top:70px;padding-bottom:70px; text-align: center;">-->
-    <!--  <h1>WebDesk-top (Pre-Release for test only)</h1>-->
-    <!--  <h3>WebFrame for your desktop.</h3>-->
-    <!--  <p>Easy Install</p>-->
-    <!--  <p>Easy App Creation</p>-->
-    <!--  <p>Easy App Updating</p>-->
-    <!--  <div class="card-deck">-->
-    <!--    <a class="card bg-primary" href="https://github.com/WebFra-me/WebDesk-top/raw/master/release-builds/webdesktop-linux-x64.tar.gz" target="_blank" style="color:#ffffff;text-decoration:none;">-->
-    <!--      <div class="card-body text-center">-->
-    <!--        <i class="fab fa-linux fa-4x" aria-hidden="true"></i><p class="card-text">Linux Download</p>-->
-    <!--      </div>-->
-    <!--    </a>-->
-    <!--    <a class="card bg-primary" href="https://github.com/WebFra-me/WebDesk-top/raw/master/release-builds/WebDesk-top_mac.zip" target="_blank" style="color:#ffffff;text-decoration:none;">-->
-    <!--      <div class="card-body text-center">-->
-    <!--        <i class="fab fa-apple fa-4x" aria-hidden="true"></i><p class="card-text">macOS Download</p>-->
-    <!--      </div>-->
-    <!--    </a>-->
-    <!--  </div>-->
-    <!--  <br>-->
-    <!--<a href="#involved" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>-->
-    <!--</div>-->
+    <div id="webdesk-top" class="container-fluid wf-orange mainbody" style="padding-top:70px;padding-bottom:70px; text-align: center;">
+      <h1>WebDesk-top (Pre-Release for test only)</h1>
+      <h3>WebFrame for your desktop.</h3>
+      <p>Easy Install</p>
+      <p>Easy App Creation</p>
+      <p>Easy App Updating</p>
+      <div class="card-deck">
+        <a class="card bg-primary" href="https://github.com/WebFra-me/WebDesk-top/raw/master/release-builds/webdesktop-linux-x64.tar.gz" target="_blank" style="color:#ffffff;text-decoration:none;">
+          <div class="card-body text-center">
+            <i class="fab fa-linux fa-4x" aria-hidden="true"></i><p class="card-text">Linux Download</p>
+          </div>
+        </a>
+        <a class="card bg-primary" href="https://github.com/WebFra-me/WebDesk-top/raw/master/release-builds/WebDesk-top_mac.zip" target="_blank" style="color:#ffffff;text-decoration:none;">
+          <div class="card-body text-center">
+            <i class="fab fa-apple fa-4x" aria-hidden="true"></i><p class="card-text">macOS Download</p>
+          </div>
+        </a>
+      </div>
+      <br>
+    <a href="#involved" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
+    </div>
     <div id="involved" class="container-fluid wf-blue mainbody py-5 section">
       <div class="container py-5">
         
