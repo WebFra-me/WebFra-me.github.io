@@ -1,307 +1,228 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125467313-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'UA-125467313-1');
-  </script>
-
-  
-  <title>WebFra.me</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Webframe makes rapid app development possible by providing the back-end for you—user accounts, security, and pretty much everything else.">
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">-->
-  <link rel="stylesheet" href="css/style.css">
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#1161d9">
-  <meta name="msapplication-TileColor" content="#1161d9">
-  <meta name="theme-color" content="#ffffff">
-
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50" style="height: 100%;">
-
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <head>
     
-    <a class="navbar-brand" href="#download"><img src="img/WebFrame-title-white.svg" alt="WebFrame" style="width:40px;height: auto;"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.min.css">
+
+    <title>Webframe | Web application boilerplate</title>
+    
+  </head>
+  <body>
+    
+    <nav id="site-nav" class="sticky-top navbar navbar-expand-lg bg-white navbar-light">
+      <a class="navbar-brand" href="#"><img src="img/WebFrame.png" class="" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#home">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#features">Features</a>
-      </li>
-      <!--<li class="nav-item">-->
-      <!--  <a class="nav-link" href="#webdesk-top">WebDesk-top</a>-->
-      <!--</li>-->
-      <li class="nav-item">
-        <a class="nav-link" href="#involved">Get Involved</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#docs">Docs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://blog.webfra.me/" target="_blank">Blog</a>
-      </li>
-    </ul>
-    <ul class="nav navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="https://github.com/WebFra-me" target="_blank"><i class="fab fa-github"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.facebook.com/WebFrame.me" target="_blank"><i class="fab fa-facebook-f"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://twitter.com/WebFra_me" target="_blank"><i class="fab fa-twitter"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://plus.google.com/u/0/b/107248794003863557916/107248794003863557916" target="_blank"><i class="fab fa-google-plus-g"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="" target="_blank"><i class="fab fa-youtube"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="" target="_blank"><i class="fab fa-discord"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://blog.webfra.me/feeds/posts/default?alt=rss" target="_blank"><i class="fas fa-rss-square"></i></a>
-      </li>
-    </ul>
-  </div>
-  </nav>
-  
-  <div class="wrapper" style="height: 100%;">
-    <div id="home" class="mainbody text-center mt-5 pt-5 px-0 section parallax" style="height: 100%;">
-      
-      <div class="row">
-        <div class="col-md-6 offset-md-3">
-          <img src="img/WebFrame.png" alt="WebFra.me" class="img-fluid px-sm-5 px-xs-5">
-        </div>
-      </div>
-      
-      <h2 class="mt-2 mb-5">Empowering software that empowers you</h2>
-      
-      <div class="row mt-5 pt-5 no-gutters" style="height: 100%">
-        
-        <div class="col-lg-5 text-center pt-md-5 pt-lg-5 pt-xl-5 pb-sm-5 pb-xs-5">
+    
+      <div class="collapse navbar-collapse" id="siteNav">
+        <ul class="navbar-nav ml-auto">
           
-          <a href="#" class="btn btn-primary btn-lg" style="font-size: 1.6rem;" onclick="download_webframe();return false;"><i class="fa fa-fw fa-download"></i> &nbsp;Download WebFrame</a>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/WebFra-me/WebFra-me/releases">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/WebFra-me/WebFra-me/wiki">Documentation</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://blog.webfra.me/">Blog</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container homepage-section">
+      <div class="row mt-md-5">
+        
+        <div class="col-md-5 mb-5 mt-md-5">
+          <h1 class="display-4 mb-4">Rapid application development</h1>
+          <p class="mb-md-5">
+            Download. Install. Start developing. Done.
+          </p>
+          
+          <a href="#" class="btn btn-primary btn-lg"><i class="fal fa-download fa-fw"></i> &nbsp; Download</a>
           <br />
-          <!--<a class="mt-3 d-block" href="#">Download Options</a>-->
+          <small class="text-muted">Works on any web server w/ php</small>
           
-          <a class="mt-3 d-block" href="https://raw.githubusercontent.com/WebFra-me/WebFra-me/master/wd_deb.sh" target="_blank">Download wd_deb.sh</a>
         </div>
-        <div class="col-lg-7 d-none d-lg-block d-xl-block" style="background: url('img/macbook-front.png') no-repeat 0px 0px;background-size: 115%;height: 100%;min-height: 460px;">
-          <!--<img src="" class="img-fluid d-none d-lg-block d-xl-block" />-->
+        <div class="col-md-7 mt-md-5">
+          
+          <img src="img/macbook-front.png" class="img-fluid mb-5 d-none d-md-block" />
+          
+          
         </div>
-      </div>
-      <div class="text-center mx-5">
-        <img src="img/macbook-front.png" class="img-fluid d-xl-none d-lg-none mb-3" />
-      </div>
-      
-      <!--<br>-->
-      <!--<a href="#features" style="color: #000000; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>-->
-    </div>
-    <div id="features" class="wf-purple mainbody py-5 text-center section">
-      <div class="container">
-        <h1 class="mb-5">Features</h1>
-        <p class="lead">WebFrame is feature packed to facilitate the simple and easy creation, integration, and usage of web applications. We are also working constantly to expand WebFrame's feature set. Here are some of the notable features:</p>
-          
-          <div class="row mb-5">
-            <div class="col-4 px-xl-5">
-              <img src="img/coding.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="width: 100%;max-width: 256px;" alt="" />
-              <h4>Rapid App Development</h4>
-            </div>
-            <div class="col-4 px-xl-5">
-              <img src="img/login.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="width: 100%;max-width: 256px;" alt="" />
-              <h4>Built-in Authentication &amp; Security</h4>
-            </div>
-            <div class="col-4 px-xl-5">
-              <img src="img/web-design.png" class="img-fluid p-sm-5 p-md-5 p-lg-5 p-xl-5 p-3 text-center" style="width: 100%;max-width: 256px;" alt="" />
-              <h4>Customizable layouts and themes</h4>
-            </div>
-          </div>
-          <!--<p>Versitile framework for the easy creation of web applications</p>-->
-          <!--<p>Authentication and security built-in</p>-->
-          <!--<p>Customizable layouts and themes to fit any need</p>-->
-          <!--<p>Tools to assist in the development of web applications</p>-->
-          <!--<p>Marketplace with many web applications developed by other WebFrame users</p>-->
-          
-        <br>
-        <a href="#webdesk-top" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
-      </div>
-    </div>
-    <div id="webdesk-top" class="container-fluid wf-orange mainbody" style="padding-top:70px;padding-bottom:70px; text-align: center;">
-      <h1>WebDesk-top (Pre-Release for test only)</h1>
-      <h3>WebFrame for your desktop.</h3>
-      <p>Easy Install</p>
-      <p>Easy App Creation</p>
-      <p>Easy App Updating</p>
-      <div class="card-deck">
-        <a class="card bg-primary" href="https://github.com/WebFra-me/WebDesk-top/raw/master/release-builds/webdesktop-linux-x64.tar.gz" target="_blank" style="color:#ffffff;text-decoration:none;">
-          <div class="card-body text-center">
-            <i class="fab fa-linux fa-4x" aria-hidden="true"></i><p class="card-text">Linux Download</p>
-          </div>
-        </a>
-        <a class="card bg-primary" href="https://github.com/WebFra-me/WebDesk-top/raw/master/release-builds/WebDesk-top_mac.zip" target="_blank" style="color:#ffffff;text-decoration:none;">
-          <div class="card-body text-center">
-            <i class="fab fa-apple fa-4x" aria-hidden="true"></i><p class="card-text">macOS Download</p>
-          </div>
-        </a>
-      </div>
-      <br>
-    <a href="#involved" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
-    </div>
-    <div id="involved" class="container-fluid wf-blue mainbody py-5 section">
-      <div class="container py-5">
         
-        <div class="row mb-5">
-          
-          <div class="col-md-7">
-            <h1 class="mb-3">Get Involved</h1>
-            <p class="lead"> WebFrame is completely open source, which means we rely on user support for the advancement in development of WebFrame.  There are a few ways you can get involved to help improve WebFrame for everyone.</p>
+      </div>
+    </div>
+    <div class="d-block d-md-none" style="background: url('img/macbook-front.png') no-repeat 50% 0;background-size: 120%;height: 175px;width: 100%;"></div>
+    <div class="wf-blue homepage-section">
+      <div class="container py-5">
+        <div class="row pb-5 mb-5">
+          <div class="col text-center">
+            <p class="lead giant">
+              Webframe is a boilerplate for rapid web application development that takes care of user management, security and organization for you.
+            </p>
           </div>
-          <div class="col-md-4 offset-md-1">
-            
+        </div>
+        <div class="row">
+          
+          <div class="col-md-4 mb-5">
+            <div class="row">
+              <div class="col-5 col-md-12 px-md-5 mb-md-4 text-center">
+                <div class="px-md-5 mb-md-4">
+                  <img src="img/browser-code.svg" class="img-fluid animated fadeInLeft" />
+                </div>
+              </div>
+              <div class="col-7 col-md-12">
+                <h4>Rapid app development</h4>
+                <p>
+                  Manage your apps from the web interface and connect them with HUD&apos;s for a seamless end-user experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-5">
+            <div class="row">
+              <div class="col-5 col-md-12 px-md-5 mb-md-4">
+                <div class="px-md-5 mb-md-4">
+                  <img src="img/browser-user.svg" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-7 col-md-12">
+                <h4>Built-in authentication &amp; security</h4>
+                <p>
+                  No one has time to build user logins and think about security. Install Webframe, create a new app and in minutes you&apos;ll be typing lines of code for your web app.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 ">
+            <div class="row">
+              <div class="col-5 col-md-12 px-md-5 mb-md-4">
+                <div class="px-md-5 mb-md-4">
+                  <img src="img/browser-customize.svg" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-7 col-md-12">
+                <h4>Customizeable layouts &amp; themes</h4>
+                <p>
+                  Make Webframe work for you by customizing the end-user experience down to the last detail.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="wf-orange homepage-section">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col mb-3">
+            <h1 class="display-5">Get involved</h1>
+            <p>
+              WebFrame is completely open source, which means we rely on user support for the advancement in development of WebFrame. There are a few ways you can get involved to help improve WebFrame for everyone.
+            </p>
+          </div>
+          <div class="col">
             <a href="https://github.com/WebFra-me/WebFra-me" target="_blank" class="btn btn-outline-light btn-lg btn-block text-left">
               <i class="fab fa-github fa-lg fa-fw"></i> &nbsp; Fork on Github
             </a>
-            <a href="#" class="btn btn-outline-light btn-lg btn-block text-left">
-              <i class="far fa-envelope fa-lg fa-fw"></i> &nbsp; Join the mailing list
+            <a href="http://eepurl.com/dOgRvX" target="_blank" class="btn btn-outline-light btn-lg btn-block text-left">
+              <i class="fal fa-envelope fa-lg fa-fw"></i> &nbsp; Join the mailing list
             </a>
-            <a href="#" id="" class="btn btn-outline-light btn-lg btn-block text-left">
-              <i class="far fa-donate fa-lg fa-fw"></i> &nbsp; Donate
+            <a href="https://www.buymeacoffee.com/webframe" target="_blank" id="" class="btn btn-outline-light btn-lg btn-block text-left">
+              <i class="fal fa-donate fa-lg fa-fw"></i> &nbsp; Buy us a coffee
             </a>
-            <a href="#" class="btn btn-outline-light btn-lg btn-block text-left">
-              <i class="far fa-id-badge fa-lg fa-fw"></i> &nbsp; Join our team
-            </a>
-            
+            <!--<a href="#" class="btn btn-outline-light btn-lg btn-block text-left">-->
+            <!--  <i class="fal fa-id-badge fa-lg fa-fw"></i> &nbsp; Join our team-->
+            <!--</a>-->
           </div>
-        </div>
-        
-        
-        
-        <!--<br>-->
-            <!--<p>Develop for WebFrame</p>-->
-            <!--<p>Contribute to our documentation</p>-->
-            <!--<p>Build web applications and publish them on the Marketplace</p>-->
-            <!--<p>Provide feedback regarding issues, improvements, or requests for new features</p>-->
-            <!--<p>Spread the word!</p>-->
-        <!--<br>-->
-        <!--<hr style="background-color:#ffffff;height:1px;">-->
-        <!--<br><br>-->
-        <!--<a href="https://github.com/WebFra-me/WebFra-me" target="_blank"><img src="img/icons/GitHub-Mark-Light-120px-plus.png" alt="GitHub" style="width:10%;"/></a>-->
-        <!--<br><br>-->
-        <!--<h4>WebFrame is hosted on GitHub. To contribute to WebFrame development or documentation, please head to <a class="bodylink" href="https://github.com/WebFra-me/WebFra-me" target="_blank">GitHub</a>.</h4>-->
-        <!--<br>-->
-        <div class="text-center">
-          <a href="#docs" style="color: #ffffff; font-size: 4em;"><i class="fas fa-arrow-circle-down"></i></a>
         </div>
       </div>
     </div>
-    <div id="docs" class="container-fluid wf-green mainbody py-5 text-center section">
-      <h1>Docs</h1>
-      <h4>The documentation for WebFrame and WebDesk-top is hosted on GitHub wiki pages. Use the buttons below to visit the wiki pages. Feel free to contribute to the documentation as well!</h4>
-      <br><br>
-      <div class="card-deck">
-        <a class="card wf-purple bodylink" href="https://github.com/WebFra-me/WebFra-me/wiki" target="_blank" style="text-decoration:none;">
-          <div class="card-body text-center">
-            <img src="img/icons/android-chrome-192x192.png" style="width: 10%;"><p class="card-text">WebFrame</p>
-          </div>
-        </a>
-        <a class="card wf-purple bodylink" href="https://github.com/WebFra-me/WebDesk-top/wiki" target="_blank" style="text-decoration:none;">
-          <div class="card-body text-center">
-            <img src="img/WebDesk-top.png" style="width: 10%;"></i><p class="card-text">WebDesk-top</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div id="footer" class="" style="padding-top: 10px; padding-bottom: 10px; text-align: center;">
-    <span>Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> WebFrame | <a href="privacy.html" target="_blank">Privacy Policy</a> | <a href="termsofuse.html" target="_blank">Terms of Use</a></span>
     
-  <script defer src="https://pro.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-eAVkiER0fL/ySiqS7dXu8TLpoR8d9KRzIYtG0Tz7pi24qgQIIupp0fn2XA1H90fP" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>  
-  
-  <script type="text/javascript">
-  function download_webframe(){
-    $.get("https://api.github.com/repos/webfra-me/webfra-me/releases/latest",function(data){
-      if(data.zipball_url != null){
-        document.location = data.zipball_url;
-      }
-    });
-  }
-  $(document).ready(function(){
-    // Add scrollspy to <body>
-    $('body').scrollspy({target: ".navbar", offset: 50});
-  
-    // Add smooth scrolling on all links inside the navbar
-    $("#collapsibleNavbar a").on('click', function(event) {
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-  
-        // Store hash
-        var hash = this.hash;
-  
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-  
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      }  // End if
-    });
-  });
-  </script>
-  <script src="https://checkout.stripe.com/checkout.js"></script>
-  
-  <script>
-  var handler = StripeCheckout.configure({
-    key: 'pk_test_dCBpy32VK0PWMr623gffR3ly',
-    image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
-    locale: 'auto',
-    token: function(token) {
-      // You can access the token ID with `token.id`.
-      // Get the token ID to your server-side code for use.
-    }
-  });
-  
-  document.getElementById('donateButton').addEventListener('click', function(e) {
-    // Open Checkout with further options:
-    handler.open({
-      name: 'Webdesk',
-      description: 'Donate to Webframe'
-    });
-    e.preventDefault();
-  });
-  
-  // Close Checkout on page navigation:
-  window.addEventListener('popstate', function() {
-    handler.close();
-  });
-  </script>
-</body>
+    <div class="homepage-section" style="background: url('img/desk.jpg') no-repeat top center;background-size: cover;">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-md-6">
+            <h1 class="display-4 mb-4">Custom business solutions</h1>
+            <p>We use Webframe to develop custom solutions that meets the needs you have for your business, organization or anything else.</p>
+            <!--<p>Need something? &nbsp; -->
+            <!--<a href="mailto:hello&#64;webfra.me">Contact us</a> and start the conversation.</p>-->
+            <a href="mailto:hello&#64;webfra.me" class="btn btn-outline-secondary btn-lg">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="site-footer bg-secondary text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h3>About Webframe</h3>
+            <p>
+              We&apos;re a couple of developers trying to provide customized solutions for small businesses and organizations by providing software and development services that solve their needs.
+            </p>
+            <img src="img/WebFrame-title-white.svg" width="72" />
+          </div>
+          <div class="col-md-4">
+            <h3>Company</h3>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="https://github.com/WebFra-me/WebFra-me/releases" class="text-white">Download</a></li>
+              <li class="list-inline-item"><a href="https://github.com/WebFra-me/WebFra-me/wiki" class="text-white">Docs</a></li>
+              <li class="list-inline-item">Contact</li>
+              <li class="list-inline-item"><a href="terms.htm" class="text-white">Terms</a></li>
+              <li class="list-inline-item"><a href="privacy.htm" class="text-white">Privacy</a></li>
+            </ul>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="https://github.com/WebFra-me" target="_blank"><i class="text-white fab fa-github fa-fw fa-lg"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/WebFrame.me" target="_blank"><i class="text-white fab fa-facebook-f fa-fw fa-lg"></i></a></li>
+              <li class="list-inline-item"><a href="https://twitter.com/WebFra_me" target="_blank"><i class="text-white fab fa-twitter fa-fw fa-lg"></i></a></li>
+              
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Stay in touch</h3>  
+            <p>Join our mailing list to receive news and other goodies from us.</p>
+            <form action="https://webdesk.us19.list-manage.com/subscribe/post?u=e2aea77c2aab86ad81341f73b&amp;id=261761a092" method="post">
+              <div class="form-group">
+                <div class="input-group">
+                  
+                  <input type="email" name="EMAIL" class="form-control" placeholder="yourname@example.com" />
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-light"><i class="fa fa-envelope fa-fw"></i></button>
+                  </div>
+                </div>
+                <small class="input-text text-light">We&apos;ll send around one email per month</small>
+              </div>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e2aea77c2aab86ad81341f73b_261761a092" tabindex="-1" value=""></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-copyright bg-dark py-3">
+      <div class="container text-center text-white">
+        &copy; 2018 Webframe &nbsp;&middot;&nbsp; All Rights Reserved
+      </div>
+    </div>
+    
+    <script defer src="https://pro.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-3yBLeJ4waqGSAf4A8pjZ13UF7GuhgbdKnBQvIp/TkWoXtQbtwjlIPNjkDRJ46UCn" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/site.js"></script>
+    
+  </body>
 </html>
