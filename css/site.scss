@@ -4,9 +4,10 @@ $blue: #1161D9;
 $orange: #D98911;
 $purple: #8911D9;
 $green: #61D911;
+$grey: ##D3D3D3;
 
 #site-nav{
-	transition: all 2s ease;
+	transition: all 1s ease;
 }
 .wf-blue {
   color: #ffffff;
@@ -24,11 +25,14 @@ $green: #61D911;
   color: #ffffff;
   background-color: $green;
 }
+.bg-secondary{
+	background-color: $grey;
+}
 #site-nav{
 	.navbar-brand{
 		img{
-			max-width: 250px;
-			transition: all 2s ease;
+			max-width: 200px;
+			transition: all 1s ease;
 		}
 		img.small{
 			max-width: 150px;
