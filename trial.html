@@ -141,7 +141,13 @@
         var code = document.getElementById("code");
         var name = document.getElementById("name");
         var email = document.getElementById("email");
-        $.get("http://app.webfra.me/webSub.php?type=MyApps&app=Trial&sec=startSub.php&code=" + code + "&name=" + name + "&email=" + email, function(status){
+        $.get("http://app.webfra.me/webSub.php?type=MyApps&app=Trial&sec=startSub.php", 
+              {
+    code: code,
+    name: name,
+    email: email
+  },
+              function(status){
         alert("Status: " + status);
         });
       });  
