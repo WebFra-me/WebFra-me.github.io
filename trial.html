@@ -19,7 +19,18 @@
     <title>Webframe | Web application development boilerplate</title>
     
     <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="adb757c9-c093-42bf-9c6e-3534f40da839";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-    
+    <script>
+      alert("okay");
+      $("#vcode").click(function(){
+        var code = document.getElementById("code");
+        var name = document.getElementById("name");
+        var email = document.getElementById("email");
+        $.get("http://app.webfra.me/webSub.php?type=MyApps&app=Trial&sec=startSub.php&code=" + code + "&name=" + name + "&email=" + email, function(status){
+        alert("Status: " + status);
+        });
+      });  
+    </sript>
+      
   </head>
   <body>
   <nav id="site-nav" class="sticky-top navbar navbar-expand-lg bg-white navbar-light">
@@ -136,15 +147,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/site.js"></script>
-    <script>
-      $("#vcode").click(function(){
-        var code = document.getElementById("code");
-        var name = document.getElementById("name");
-        var email = document.getElementById("email");
-        $.get("http://app.webfra.me/webSub.php?type=MyApps&app=Trial&sec=startSub.php&code=" + code + "&name=" + name + "&email=" + email, function(data, status){
-        alert("Status: " + status);
-        });
-      });  
-    </sript>
+    
   </body>
 </html>
